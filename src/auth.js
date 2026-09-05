@@ -1,6 +1,7 @@
 const { staffRoleId, xpAdminRoleId } = require('./config');
 
 const ADMIN_COMMANDS = new Set([
+  'say',
   'ticket-setup',
   'verify-setup',
   'role-info',
